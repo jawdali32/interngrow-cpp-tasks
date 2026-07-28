@@ -1,3 +1,19 @@
+/*
+    InternGrow C++ Programming Track - Module 1
+    TASK 1: Automated Semester CGPA Planner
+
+    Base Feature:
+      - Take input for courses, grade scales, and credit hours
+      - Compute individual semester GPA and cumulative CGPA
+
+    Upgrade Feature:
+      - Predictive simulation: calculates the minimum average GPA needed
+        in upcoming semesters to reach a target CGPA.
+
+    Data is stored permanently in cgpa_data.txt so history persists
+    between runs.
+*/
+
 #include <iostream>
 #include <iomanip>
 using namespace std;
